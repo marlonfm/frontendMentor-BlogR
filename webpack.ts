@@ -12,7 +12,7 @@ const htmlPlugin = new HtmlWebpackPlugin({
 });
 
 const isDevelopment = process.env.NODE_ENV !== 'production';
-
+console.log(isDevelopment);
 const config = {
   mode: isDevelopment ? 'development' : 'production',
   entry: path.resolve(__dirname, 'src', 'index.tsx'),
