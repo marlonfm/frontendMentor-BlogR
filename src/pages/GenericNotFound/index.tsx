@@ -1,5 +1,7 @@
 const GenericNotFound: React.FC = () => {
-  return <p>404 - Not Found ERROR TESTE</p>;
+  const msg = 2;
+  console.log(msg);
+  return <p>404 - Not Found ERROR TESTEeeee</p>;
 };
 
 export default GenericNotFound;
