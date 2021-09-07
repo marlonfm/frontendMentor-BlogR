@@ -103,7 +103,7 @@ const Page: React.FC = () => {
                       >
                         <div>
                           <ul>
-                            <li>Clothes</li>
+                            <li>Clothess</li>
                             <li>Products</li>
                             <li>More</li>
                           </ul>
